@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/resume" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         {/* <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} /> */}
