@@ -34,10 +34,7 @@ function Footer() {
                 <h6 className="text-gray-500 font-medium mb-1">Phone:</h6>
                 <ul>
                   <li className="mb-1 text-gray-500 hover:text-gray-200 transition duration-150 ease-in-out">
-                    phone: +64 22 594 6268
-                  </li>
-                  <li className="mb-1 text-gray-500 hover:text-gray-200 transition duration-150 ease-in-out">
-                    whatsapp: +7 964 419 7913
+                    +64 22 594 6268
                   </li>
                 </ul>
               </div>

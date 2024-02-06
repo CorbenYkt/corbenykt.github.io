@@ -32,13 +32,13 @@ function Header() {
     <header className="absolute w-full z-30 py-2">
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center justify-center">
-          <Link to="/" onClick={() => {
+          <Link onClick={() => {
             const element = document.getElementById("skillssection");
             if (element) {
               element.scrollIntoView({ behavior: 'smooth' });
             }
           }} className="font-medium text-gray-700 hover:text-gray-500 px-4 py-3 flex items-center transition duration-150 ease-in-out">Skills</Link>
-          <Link to="/" onClick={() => {
+          <Link onClick={() => {
             const element = document.getElementById("projectssection");
             if (element) {
               element.scrollIntoView({ behavior: 'smooth' });

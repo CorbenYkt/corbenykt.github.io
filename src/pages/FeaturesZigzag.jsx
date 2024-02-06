@@ -68,7 +68,7 @@ function FeaturesZigzag() {
                 <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                   <div className="md:pr-4 lg:pr-12 xl:pr-16">
                     <h3 className="h3 mb-3 text-black">Currency Calculator's page</h3>
-                    <p className="text-xl text-gray-500 mb-4">And this is my simple currency calculator. While moving, I needed a quick conversion tool that was fast and convenient. This is how the idea came up to make a small calculator for myself. Currency conversion takes place according to current data from the Central Bank of the Russian Federation</p>
+                    <p className="text-xl text-gray-500 mb-4">And this is my simple currency calculator. While moving, I needed a quick conversion tool that was fast and convenient. This is how the idea came up to make a small calculator for myself. Currency conversion takes place according to current data from the Central Bank</p>
                   </div>
                 </div>
               </div></Link>

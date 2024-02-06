@@ -46,7 +46,7 @@ function FeaturesBlocks() {
               <Link to='https://github.com/corbenykt' className='relative flex flex-col items-center'>
                 <h4 className="h4 text-black">GitHub</h4>
                 <ReactSVG src="src/img/github.svg" className='mb-2' />
-                <p className="text-lg text-gray-500 text-justify">Version control system for tracking changes in code. Click to visit
+                <p className="text-lg text-gray-500 text-justify">Version control system for tracking changes in code. I publish my repositories whenever possible. Click to visit
                 </p>
               </Link>
             </div>
