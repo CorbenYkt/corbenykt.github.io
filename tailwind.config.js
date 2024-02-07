@@ -1,13 +1,10 @@
 module.exports = {
   content: [
     './index.html',
-    './src/**/*.{js,jsx,ts,tsx}',
+    './src/**/*.{js,jsx,ts,tsx,svg,jpg,png}',
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "avatar-image": "url('./src/img/avatar.jpg')",
-      },
       colors: {
         gray: {
           100: '#EBF1F5',

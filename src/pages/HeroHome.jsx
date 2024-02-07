@@ -8,7 +8,7 @@ function HeroHome() {
         {/* Greetings content */}
         <div className="relative pt-10 pb-10">
           <div className="max-w-3xl mx-auto text-center md:pt-20 md:pb-20 
-          bg-[url('src/img/me.jpg')] 
+          bg-[url('/src/img/me.jpg')] 
           rounded-lg 
           bg-cover
            bg-center ">
