@@ -49,12 +49,12 @@ function FeaturesBlocks() {
 
             {/* 4th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-              <Link to='https://github.com/corbenykt' className='relative flex flex-col items-center'>
+              <a href='https://github.com/corbenykt' className='relative flex flex-col items-center'>
                 <h4 className="h4 text-black">GitHub</h4>
                 <ReactSVG src={githubsvg} className='mb-2' />
                 <p className="text-lg text-gray-500 text-justify">Version control system for tracking changes in code. I publish my repositories whenever possible. Click to visit
                 </p>
-              </Link>
+              </a>
             </div>
 
             {/* 5th item */}
