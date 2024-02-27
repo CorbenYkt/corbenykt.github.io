@@ -45,3 +45,7 @@ function App() {
 
 
 export default App
+
+//git add dist -f
+//git commit -m "last build after errors"
+//git subtree push --prefix dist origin gh-pages
