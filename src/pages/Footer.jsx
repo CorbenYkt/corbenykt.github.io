@@ -5,8 +5,8 @@ function Footer() {
   return (
     <footer>
       <div>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 place-content-center">
-          <div className="columns-3">
+        <div className="container mx-auto text-center">
+          <div className="">
             <div className="text-sm">
               <h6 className="text-gray-500 font-medium">E-mail:&nbsp;<a href="mailto:vool34@gmail.com" className="text-gray-500 hover:text-gray-200 transition duration-150 ease-in-out">vool34@gmail.com</a></h6>
             </div>
