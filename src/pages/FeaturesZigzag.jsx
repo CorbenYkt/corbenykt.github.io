@@ -7,11 +7,11 @@ function FeaturesZigzag() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-0 md:py-0">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4 text-black">Portfolio</h1>
+          <div className="max-w-3xl mx-auto text-center pb-10 md:pb-10">
+            <h1 className="h2 text-black">Portfolio</h1>
           </div>
 
           {/* ProjectsSection */}
