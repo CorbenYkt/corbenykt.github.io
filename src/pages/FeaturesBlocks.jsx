@@ -17,7 +17,7 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
             <h2 className="h2 mb-4 text-black">ReactJS Developer</h2>
-            <p className="text-lg text-gray-700 text-justify">Talented and experienced web developer with over 5 years of expertise in web development. Specialized in crafting modern and intuitive interfaces using ReactJS. Proficient in developing scalable and high-performance web applications, collaborating closely with designers and team members to achieve outstanding results.</p>
+            <p className="text-lg text-gray-700 text-justify">Talented and experienced web developer with over 8 years of expertise in web development. Specialized in crafting modern and intuitive interfaces using ReactJS. Proficient in developing scalable and high-performance web applications, collaborating closely with designers and team members to achieve outstanding results.</p>
           </div>
 
           {/* Section Skills */}
