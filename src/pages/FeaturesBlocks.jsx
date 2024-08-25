@@ -28,14 +28,14 @@ function FeaturesBlocks() {
               <h4 className="h4 text-black">HTML5 + CSS3</h4>
               <ReactSVG src={htmlsvg} className='mt-2 mb-4' />
               <p className="text-lg text-gray-500 text-justify">Markup language for structuring web pages.
-                My first website was about The Simpsons, when I was about 13 years old when I was in school. He posted pictures and sounds there (it was very popular, especially his signature “D’oh!”). Where did the table tag go? and what about iframe?</p>
+                My first website was about The Simpsons, when I was kid about 13 yo when I was in school. I've posted pictures(screen's from fave moments from each episod) and sounds (it was very popular, especially Homer's “D’oh!”). PS: Where did the table tag go? and what about iframe?</p>
             </div>
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
               <h4 className="h4 text-black">Javascript</h4>
               <ReactSVG src={jssvg} className='mt-2 mb-4' />
-              <p className="text-lg text-gray-500 text-justify">The primary language for web development. Already in high school I became acquainted with JS, but did not give it much importance. I was drawn to object-oriented programming using Borland Pascal.
+              <p className="text-lg text-gray-500 text-justify">My primary framework for web development. Already in high school I became acquainted with JS, but did not give it much importance. I was drawn to object-oriented programming using Borland Pascal.
                 However, almost immediately in my first years at University I started using Bootstrap and JQuery</p>
             </div>
 
@@ -59,9 +59,11 @@ function FeaturesBlocks() {
 
             {/* 5th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-              <h4 className="h4 text-black">Python|ML</h4>
-              <ReactSVG src={pythonsvg} className='mt-2 mb-4' />
-              <p className="text-lg text-gray-500 text-justify">Python and Machine learning. Yeap I really like working with dataset, linear regressions, CNN...</p>
+              <a href='https://github.com/corbenykt' className='relative flex flex-col items-center'>
+                <h4 className="h4 text-black">Python|ML</h4>
+                <ReactSVG src={pythonsvg} className='mt-2 mb-4' />
+                <p className="text-lg text-gray-500 text-justify">Python and Machine learning. Yeap I really like working with dataset, linear regressions, CNN and so on. You can also with my works with ML in GitHub</p>
+              </a>
             </div>
 
             {/* <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
