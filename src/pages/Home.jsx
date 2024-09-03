@@ -2,8 +2,8 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import HeroHome from './HeroHome';
-import FeaturesBlocks from './FeaturesBlocks';
-import FeaturesZigZag from './FeaturesZigzag';
+import Skills from './Skills';
+import Portfolio from './Portfolio';
 
 function Home() {
   return (
@@ -12,8 +12,8 @@ function Home() {
 
       <main className="grow">
         <HeroHome />
-        <FeaturesBlocks />
-        <FeaturesZigZag />
+        <Skills />
+        <Portfolio />
       </main>
 
       <Footer />

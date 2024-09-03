@@ -10,7 +10,7 @@ import etcsvg from '../img/etc.svg';
 import Cert1 from '../img/Cert1.png';
 import Cert2 from '../img/Cert2.png';
 
-function FeaturesBlocks() {
+function Skills() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -19,6 +19,8 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
             <h2 className="h2 mb-4 text-black">ReactJS Developer</h2>
+            <h1 className='text-sm text-gray-500 text-center pb-4 md:pb-4'>Frontend developer | ReactJS Specialist | Machine Learning Researcher | Creative Problem Solver | Agile Team Player
+            </h1>
             <p className="text-lg text-gray-700 text-justify">Talented and experienced web developer with over 8 years of expertise in web development. Specialized in crafting modern and intuitive interfaces using ReactJS. Proficient in developing scalable and high-performance web applications, collaborating closely with designers and team members to achieve outstanding results.</p>
           </div>
 
@@ -92,7 +94,7 @@ function FeaturesBlocks() {
             <div className="relative flex flex-row items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={Cert1} width="300" alt="AWS Cert" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src={Cert1} width="200" alt="AWS Cert" />
               </div>
               {/* Content */}
               <div className="">
@@ -103,7 +105,7 @@ function FeaturesBlocks() {
             <div className="relative flex flex-row items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={Cert2} width="300" alt="AWS Cert" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src={Cert2} width="200" alt="AWS Cert" />
               </div>
               {/* Content */}
               <div className="">
@@ -111,13 +113,18 @@ function FeaturesBlocks() {
                 </p>
               </div>
             </div>
+            <div className="relative flex flex-row items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto" data-aos="fade-up">
+                <a href='https://www.linkedin.com/in/dmitrii-artemev/details/certifications/' className='relative flex flex-col items-center text-sm text-gray-500'>More of them available in my LinkedIn profile</a>
+              </div>
+            </div>
 
           </div>
 
         </div>
       </div>
-    </section>
+    </section >
   );
 }
 
-export default FeaturesBlocks;
+export default Skills;

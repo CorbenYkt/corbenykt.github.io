@@ -4,11 +4,11 @@ import Project2 from '../img/features-03-image-02.png';
 import Project3 from '../img/features-03-image-03.png';
 import Project4 from '../img/features-03-image-04.png';
 
-function FeaturesZigzag() {
+function Portfolio() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-0 md:py-0">
+        <div>
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-10 md:pb-10">
@@ -16,7 +16,7 @@ function FeaturesZigzag() {
           </div>
 
           {/* ProjectsSection */}
-          <div id="projectssection" className="grid gap-20">
+          <div id="projectssection" className="grid gap-10">
             <a href='https://corbenykt.github.io/petsfriendlycafes' className='relative flex flex-col items-center'>
               {/* petsfriendlycafes page */}
               <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
@@ -71,7 +71,7 @@ function FeaturesZigzag() {
               </div>
             </a>
 
-            {/* 3rd item */}
+            {/* Currency Calculator's page */}
             <a href='https://corbenykt.github.io/currencycalculator' className='relative flex flex-col items-center'>
               <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
                 {/* Image */}
@@ -86,7 +86,14 @@ function FeaturesZigzag() {
                   </div>
                 </div>
               </div>
+              <div className="relative flex flex-row items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
+                <div className="max-w-xl md:max-w-none md:w-full mx-auto pb-4" data-aos="fade-up">
+                  <a href='https://github.com/corbenykt/' className='relative flex flex-col items-center text-sm text-gray-500'>More of them available in my GitHub profile</a>
+                </div>
+              </div>
             </a>
+
+
           </div>
         </div>
       </div>
@@ -94,4 +101,4 @@ function FeaturesZigzag() {
   );
 }
 
-export default FeaturesZigzag;
+export default Portfolio;
