@@ -44,8 +44,8 @@ function Header() {
               element.scrollIntoView({ behavior: 'smooth' });
             }
           }} className="font-medium text-gray-700 hover:text-gray-500 px-4 py-3 flex items-center transition duration-150 ease-in-out">Projects</Link>
-          <a href={CVfile} className="btn-sm text-white bg-gray-600 hover:bg-gray-700 ml-3 text-center" >Download CV</a>
-          <a href='https://tinyurl.com/4j3fuhjf' className="font-medium text-gray-700 hover:text-gray-500 px-4 py-3 flex items-center transition duration-150 ease-in-out" target='_blank' >Cover letter</a>
+          <a href={CVfile} className="btn-sm text-white bg-gray-600 hover:bg-gray-700 ml-3 text-center" >CV</a>
+          <a href='https://tinyurl.com/4j3fuhjf' className="font-medium text-gray-700 hover:text-gray-500 px-4 py-3 flex items-center transition duration-150 ease-in-out" target='_blank' >CL</a>
 
         </div>
       </div>

@@ -6,7 +6,7 @@ function HeroHome() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-4 relative py-10">
         {/* Greetings content */}
-        <div className="relative pt-10 pb-10">
+        <div className="relative pt-10">
           <div className="max-w-3xl mx-auto text-center md:pt-20 md:pb-20 
           bg-[url('/src/img/me.jpg')] 
           rounded-lg 

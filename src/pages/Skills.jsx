@@ -19,7 +19,7 @@ function Skills() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
             <h2 className="h2 mb-4 text-black">ReactJS Developer</h2>
-            <h1 className='text-sm text-gray-500 text-center pb-4 md:pb-4'>Frontend developer | ReactJS Specialist | Machine Learning Researcher | Creative Problem Solver | Agile Team Player
+            <h1 className='text-sm text-gray-500 text-center pb-4 md:pb-4'>Frontend developer | Machine Learning Researcher | Creative Problem Solver | Agile Team Player
             </h1>
             <p className="text-lg text-gray-700 text-justify" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">Talented and experienced web developer with over 8 years of expertise in web development. Specialized in crafting modern and intuitive interfaces using ReactJS. Proficient in developing scalable and high-performance web applications, collaborating closely with designers and team members to achieve outstanding results.</p>
           </div>
