@@ -12,10 +12,10 @@ function HeroHome() {
           rounded-lg 
           bg-cover
            bg-center ">
-            <h1 className="h1 pt-10 pl-10 text-white text-left" data-aos="fade-up">
+            <h1 className="h2 pt-10 pl-10 text-white text-left" data-aos="fade-up">
               Hi, I'm Dmitrii
             </h1>
-            <p className="h3 pt-4 pl-10 pb-10 text-white text-left" data-aos="fade-up" data-aos-delay="200">
+            <p className="h4 pt-4 pl-10 pb-10 text-white text-left" data-aos="fade-up" data-aos-delay="200">
               Frontend developer
             </p>
           </div>
