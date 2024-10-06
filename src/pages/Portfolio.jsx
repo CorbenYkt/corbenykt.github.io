@@ -3,6 +3,7 @@ import Project1 from '../img/features-03-image-01.png';
 import Project2 from '../img/features-03-image-02.png';
 import Project3 from '../img/features-03-image-03.png';
 import Project4 from '../img/features-03-image-04.png';
+import Project5 from '../img/features-03-image-05.png';
 
 function Portfolio() {
   return (
@@ -17,6 +18,24 @@ function Portfolio() {
 
           {/* ProjectsSection */}
           <div id="projectssection" className="grid gap-10">
+            <a href='https://corbenykt.github.io/movieadvisor' className='relative flex flex-col items-center'>
+              {/* Fozzy's page */}
+              <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+                {/* Image */}
+                <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+                  <img className="max-w-full mx-auto md:max-w-none h-auto rounded-lg" src={Project5} width="540" height="405" alt="Features Fozzy's page" />
+                </div>
+                {/* Content */}
+                <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
+                  <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                    <h3 className="h3 mb-3 text-black">Movie Advisor's page</h3>
+                    <p className="text-xl text-gray-500 mb-4">Do you want to watch some interesting and relevant movie this evening? Take a look at this site, which will give you its recommendations. In the near future, the ability to sub-categorize by genre, catalog in your personal account, etc. will be added...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
             <a href='https://corbenykt.github.io/petsfriendlycafes' className='relative flex flex-col items-center'>
               {/* petsfriendlycafes page */}
               <div className="md:grid md:grid-cols-12 md:gap-6 items-center">

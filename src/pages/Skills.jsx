@@ -21,7 +21,8 @@ function Skills() {
             <h2 className="h2 mb-4 text-black">ReactJS Developer</h2>
             <h1 className='text-sm text-gray-500 text-center pb-4 md:pb-4'>Frontend developer | Machine Learning Researcher | Creative Problem Solver | Agile Team Player
             </h1>
-            <p className="text-lg text-gray-700 text-justify">Talented and experienced web developer with over 8 years of expertise in web development. Specialized in crafting modern and intuitive interfaces using ReactJS. Proficient in developing scalable and high-performance web applications, collaborating closely with designers and team members to achieve outstanding results.</p>
+            <p className="text-lg text-gray-700 text-justify">Passionate frontend developer originally from Yakutia, with a solid foundation in ReactJS. Experience in creating user-friendly and responsive web applications drives continuous learning and improvement. Focused on creating intuitive user interfaces, with a growing interest in backend development. Also deeply interested in machine learning and eager to explore how it can improve web development and bring new things to the web user experience, while maintaining a focus on creating holistic and effective solutions.
+            </p>
           </div>
 
           {/* Section Skills */}
