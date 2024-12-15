@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import CVfile from '/src/pages/CV.pdf';
+import GradesFile from '/src/pages/Grades.pdf';
 
 function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -44,6 +45,7 @@ function Header() {
             }
           }} className="font-medium text-gray-700 hover:text-gray-500 px-4 py-3 flex items-center transition duration-150 ease-in-out">Projects</Link>
           <a href={CVfile} className="btn-sm text-white bg-gray-600 hover:bg-gray-700 ml-3 text-center" >CV</a>
+          {/* <a href={GradesFile} className="btn-sm text-white bg-gray-600 hover:bg-gray-700 ml-3 text-center" >Grades</a> */}
           <a href='https://docs.google.com/document/d/1O_5Ez0s8jIDEP1FmmGBQ293e3zC6CZPD9-Qm3f6ucKk/edit?usp=sharing' className="font-medium text-gray-700 hover:text-gray-500 px-4 py-3 flex items-center transition duration-150 ease-in-out" target='_blank' >CL</a>
         </div>
       </div>

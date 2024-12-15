@@ -19,7 +19,7 @@ function Skills() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
-            <h2 className="h2 mb-4 text-black">ReactJS Developer</h2>
+            <h2 className="h2 mb-4 text-black">Fullstack Developer</h2>
             <h1 className='text-sm text-gray-500 text-center pb-4 md:pb-4'>Fullstack developer | Machine Learning Researcher | Creative Problem Solver | Agile Team Player
             </h1>
             <p className="text-lg text-gray-700 text-justify">Passionate fullstack developer originally from Yakutia, with a solid foundation in frontend development on ReactJS. Experience in creating user-friendly and responsive web applications drives continuous learning and improvement. Focused on creating intuitive user interfaces, with a backend development. Also deeply interested in machine learning and eager to explore how it can diversify web development and bring new things to the web user experience, while maintaining a focus on creating holistic and effective solutions.

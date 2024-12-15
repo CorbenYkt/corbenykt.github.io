@@ -4,6 +4,7 @@ import Project2 from '../img/features-03-image-02.png';
 import Project3 from '../img/features-03-image-03.png';
 import Project4 from '../img/features-03-image-04.png';
 import Project5 from '../img/features-03-image-05.png';
+import Project6 from '../img/features-03-image-06.png';
 
 function Portfolio() {
   return (
@@ -18,8 +19,25 @@ function Portfolio() {
 
           {/* ProjectsSection */}
           <div id="projectssection" className="grid gap-10">
+            <a href='https://corbenykt.github.io/mern-frontend' className='relative flex flex-col items-center'>
+              {/* MERN's project page */}
+              <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+                {/* Image */}
+                <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
+                  <img className="max-w-full mx-auto md:max-w-none h-auto rounded-lg" src={Project6} width="540" height="405" alt="MERN's project page" />
+                </div>
+                {/* Content */}
+                <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
+                  <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                    <h3 className="h3 mb-3 text-black">MERN's project page</h3>
+                    <p className="text-xl text-gray-500 mb-4">The MERN Blog Platform is a full-stack web application developed using the MERN stack: MongoDB, Express.js, React, and Node.js. It enables users to register, log in, and interact through creating, editing, and deleting blog posts. Additionally, users can engage with content by adding and managing comments on posts. The platform includes token-based authentication for secure access, efficient state management using Redux Toolkit, and a responsive UI styled with Material-UI. It is designed to provide a modern and interactive blogging experience, supporting real-time updates and dynamic content rendering.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
             <a href='https://corbenykt.github.io/movieadvisor' className='relative flex flex-col items-center'>
-              {/* Fozzy's page */}
+              {/* Movie advisor's page */}
               <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
                 {/* Image */}
                 <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
