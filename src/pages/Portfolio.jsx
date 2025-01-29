@@ -5,6 +5,7 @@ import Project3 from '../img/features-03-image-03.png';
 import Project4 from '../img/features-03-image-04.png';
 import Project5 from '../img/features-03-image-05.png';
 import Project6 from '../img/features-03-image-06.png';
+import Project7 from '../img/features-03-image-07.png';
 
 function Portfolio() {
   return (
@@ -19,6 +20,24 @@ function Portfolio() {
 
           {/* ProjectsSection */}
           <div id="projectssection" className="grid gap-10">
+            <a href='https://github.com/CorbenYkt/simplefrontend' className='relative flex flex-col items-center'>
+              {/* Simple Frontend page */}
+              <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+                {/* Image */}
+                <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+                  <img className="max-w-full mx-auto md:max-w-none h-auto rounded-lg" src={Project7} width="540" height="405" alt="Simple Frontend page" />
+                </div>
+                {/* Content */}
+                <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
+                  <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                    <h3 className="h3 mb-3 text-black">Simple Frontend's page</h3>
+                    <p className="text-xl text-gray-500 mb-4">You know, don't forget that you're also a front-end developer — it's your first love! In this project, the Positivus design demonstrates a basic set of styles that can easily be taken from one project to another and used. This is the foundation that every front-end developer should know how to create!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
             <a href='https://corbenykt.github.io/mern-frontend' className='relative flex flex-col items-center'>
               {/* MERN's project page */}
               <div className="md:grid md:grid-cols-12 md:gap-6 items-center">

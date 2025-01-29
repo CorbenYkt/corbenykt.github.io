@@ -12,6 +12,7 @@ import Cert1 from '../img/Cert1.png';
 import Cert2 from '../img/Cert2.png';
 
 function Skills() {
+  debugger
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
