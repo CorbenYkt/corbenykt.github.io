@@ -10,6 +10,7 @@ import etcsvg from '../img/etc.svg';
 import sqlsvg from '../img/sql.svg'
 import Cert1 from '../img/Cert1.png';
 import Cert2 from '../img/Cert2.png';
+import Cert3 from '../img/Cert3.png';
 
 function Skills() {
   debugger
@@ -94,29 +95,36 @@ function Skills() {
           <br></br>
           <div className="max-w-3xl mx-auto text-center pb-10 md:pb-10">
             <h2 className="h2 mb-4 text-black">Cert's</h2>
-            <div className="relative flex flex-row items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
-              {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={Cert1} width="200" alt="AWS Cert" />
+
+            <div className="space-y-4">
+
+              <div className="relative flex items-center">
+                <div className="w-[200px] flex-shrink-0 mr-4">
+                  <img className="w-full h-auto object-contain" src={Cert3} alt="Microsoft Cert" />
+                </div>
+                <div className="flex-grow">
+                  <p className="text-xl text-gray-500">Foundational C# with Microsoft</p>
+                </div>
               </div>
-              {/* Content */}
-              <div className="">
-                <p className="text-xl text-gray-500">AWS Academy Graduate - AWS Academy Cloud Architecting
-                </p>
+
+              <div className="relative flex items-center">
+                <div className="w-[200px] flex-shrink-0 mr-4">
+                  <img className="w-full h-auto object-contain" src={Cert1} alt="AWS Cert" />
+                </div>
+                <div className="flex-grow">
+                  <p className="text-xl text-gray-500">AWS Academy Graduate - AWS Academy Cloud Architecting</p>
+                </div>
               </div>
-            </div>
-            <div className="relative flex flex-row items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
-              {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={Cert2} width="200" alt="AWS Cert" />
+
+              <div className="relative flex items-center">
+                <div className="w-[200px] flex-shrink-0 mr-4">
+                  <img className="w-full h-auto object-contain" src={Cert2} alt="AWS Cert" />
+                </div>
+                <div className="flex-grow">
+                  <p className="text-xl text-gray-500">AWS Academy Graduate - AWS Academy Cloud Foundations</p>
+                </div>
               </div>
-              {/* Content */}
-              <div className="">
-                <p className="text-xl text-gray-500">AWS Academy Graduate - AWS Academy Cloud Foundations
-                </p>
-              </div>
-            </div>
-            <div className="relative flex flex-row items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
+            </div>            <div className="relative flex flex-row items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               <div className="max-w-xl md:max-w-none md:w-full mx-auto" data-aos="fade-up">
                 <a href='https://www.linkedin.com/in/dmitrii-artemev/details/certifications/' className='relative flex flex-col items-center text-sm text-gray-500'>More of them available in my LinkedIn profile</a>
               </div>

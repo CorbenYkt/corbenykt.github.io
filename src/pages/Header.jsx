@@ -46,7 +46,7 @@ function Header() {
           }} className="font-medium text-gray-700 hover:text-gray-500 px-4 py-3 flex items-center transition duration-150 ease-in-out">Projects</Link>
           <a href={CVfile} className="btn-sm text-white bg-gray-600 hover:bg-gray-700 ml-3 text-center" >CV</a>
           {/* <a href={GradesFile} className="btn-sm text-white bg-gray-600 hover:bg-gray-700 ml-3 text-center" >Grades</a> */}
-          <a href='https://docs.google.com/document/d/1O_5Ez0s8jIDEP1FmmGBQ293e3zC6CZPD9-Qm3f6ucKk/edit?usp=sharing' className="font-medium text-gray-700 hover:text-gray-500 px-4 py-3 flex items-center transition duration-150 ease-in-out" target='_blank' >CL</a>
+          <a href='https://docs.google.com/document/d/16V5rElNkQ78AGz7BGVYCwWBmr43Qg3CV_3HlhXfduqk/edit?usp=sharing' className="font-medium text-gray-700 hover:text-gray-500 px-4 py-3 flex items-center transition duration-150 ease-in-out" target='_blank' >CL</a>
         </div>
       </div>
     </header >
