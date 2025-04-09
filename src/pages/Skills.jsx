@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react';
-import { ReactSVG } from "react-svg";
-import { Link } from 'react-router-dom';
 import htmlsvg from '../img/html5.svg';
 import jssvg from '../img/javascript.svg';
 import csssvg from '../img/css3.svg';
@@ -12,7 +10,6 @@ import Cert1 from '../img/Cert1.png';
 import Cert2 from '../img/Cert2.png';
 import Cert3 from '../img/Cert3.png';
 import SkillCard from '../components/SkillCard';
-
 
 function Skills() {
   return (
@@ -92,7 +89,7 @@ function Skills() {
             <div className="space-y-4">
 
               <div className="relative flex items-center">
-                <div className="w-[200px] flex-shrink-0 mr-4">
+                <div className="w-[150px] flex-shrink-0 mr-4">
                   <img className="w-full h-auto object-contain" src={Cert3} alt="Microsoft Cert" />
                 </div>
                 <div className="flex-grow">
@@ -101,7 +98,7 @@ function Skills() {
               </div>
 
               <div className="relative flex items-center">
-                <div className="w-[200px] flex-shrink-0 mr-4">
+                <div className="w-[150px] flex-shrink-0 mr-4">
                   <img className="w-full h-auto object-contain" src={Cert1} alt="AWS Cert" />
                 </div>
                 <div className="flex-grow">
@@ -110,14 +107,16 @@ function Skills() {
               </div>
 
               <div className="relative flex items-center">
-                <div className="w-[200px] flex-shrink-0 mr-4">
+                <div className="w-[150px] flex-shrink-0 mr-4">
                   <img className="w-full h-auto object-contain" src={Cert2} alt="AWS Cert" />
                 </div>
                 <div className="flex-grow">
                   <p className="text-xl text-gray-500">AWS Academy Graduate - AWS Academy Cloud Foundations</p>
                 </div>
               </div>
-            </div>            <div className="relative flex flex-row items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
+            </div>
+            
+            <div className="relative flex flex-row items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               <div className="max-w-xl md:max-w-none md:w-full mx-auto" data-aos="fade-up">
                 <a href='https://www.linkedin.com/in/dmitrii-artemev/details/certifications/' className='relative flex flex-col items-center text-sm text-gray-500'>More of them available in my LinkedIn profile</a>
               </div>
