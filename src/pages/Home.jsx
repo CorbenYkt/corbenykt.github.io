@@ -8,15 +8,19 @@ import Portfolio from './Portfolio';
 function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden bg-white">
-      <Header />
+      <header role="banner">
+        <Header />
+      </header>
 
-      <main className="grow">
+      <main role="main" className="grow">
         <HeroHome />
         <Skills />
         <Portfolio />
       </main>
 
-      <Footer />
+      <footer role="contentinfo">
+        <Footer />
+      </footer>
     </div>
   );
 }

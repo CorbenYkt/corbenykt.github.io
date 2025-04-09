@@ -11,15 +11,15 @@ import sqlsvg from '../img/sql.svg'
 import Cert1 from '../img/Cert1.png';
 import Cert2 from '../img/Cert2.png';
 import Cert3 from '../img/Cert3.png';
+import SkillCard from '../components/SkillCard';
+
 
 function Skills() {
-  debugger
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-0 md:py-0">
 
-          {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
             <h2 className="h2 mb-4 text-black">Fullstack Developer</h2>
             <h1 className='text-sm text-gray-500 text-center pb-4 md:pb-4'>Fullstack developer | Machine Learning Researcher | Creative Problem Solver | Agile Team Player
@@ -28,71 +28,64 @@ function Skills() {
             </p>
           </div>
 
-          {/* Section Skills */}
-          <div id="skillssection" className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
+          <section id="skillssection" className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
 
-            {/* 1st item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-              <h4 className="h4 text-black">HTML5 + CSS3</h4>
-              <ReactSVG src={htmlsvg} className='mt-2 mb-4' />
-              <p className="text-lg text-gray-500 text-justify">Markup language for structuring web pages.
-                My first website was about The Simpsons, when I was kid about 13 yo when I was in school. I've posted pictures(screen's from fave moments from each episod) and sounds (it was very popular, especially Homer's “D’oh!”). PS: Where did the table tag go? and what about iframe?</p>
-            </div>
+            <SkillCard
+              title="HTML5 + CSS3"
+              description="Markup language for structuring web pages.
+                My first website was about The Simpsons, when I was kid about 13 yo when I was in school. I've posted pictures(screen's from fave moments from each episod) and sounds (it was very popular, especially Homer's “D’oh!”). PS: Where did the table tag go? and what about iframe?"
+              icon={htmlsvg}
+              delay="300"
+            />
 
-            {/* 2nd item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
-              <h4 className="h4 text-black">Javascript + Node.js</h4>
-              <ReactSVG src={jssvg} className='mt-2 mb-4' />
-              <p className="text-lg text-gray-500 text-justify">My primary framework for web development is React. I was first introduced to JavaScript in high school, but I didn’t pay much attention to it at the time. Instead, I was drawn to programming with Borland Pascal, where I explored some object-oriented concepts. However, during my first years at university, I began working with Bootstrap and jQuery. Now for the backend I use Node.js in conjunction with Express, which in my opinion is very functional.
-              </p>
-            </div>
+            <SkillCard
+              title="Javascript + Node.js"
+              description="My primary framework for web development is React. I was first introduced to JavaScript in high school, but I didn’t pay much attention to it at the time. Instead, I was drawn to programming with Borland Pascal, where I explored some object-oriented concepts. However, during my first years at university, I began working with Bootstrap and jQuery. Now for the backend I use Node.js in conjunction with Express, which in my opinion is very functional."
+              icon={jssvg}
+              delay="300"
+            />
 
-            {/* 3rd item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
-              <h4 className="h4 text-black">CSS3</h4>
-              <ReactSVG src={csssvg} className='mt-2 mb-4' />
-              <p className="text-lg text-gray-500 text-justify">Styling language for visual presentation of web pages. Right now using TailwindCSS, did you heard about this CSS? I especially don’t like working with animation. Don't you also like writing animations in CSS?</p>
-            </div>
+            <SkillCard
+              title="CSS3"
+              description="Styling language for visual presentation of web pages. Right now using TailwindCSS, did you heard about this CSS? I especially don’t like working with animation. Don't you also like writing animations in CSS?"
+              icon={csssvg}
+              delay="300"
+            />
 
+            <SkillCard
+              title="GitHub"
+              description="Version control system for tracking changes in code. I publish my repositories whenever possible. Also CI/CD: GitHub Actions. Click to visit."
+              icon={githubsvg}
+              delay="300"
+            />
 
-            {/* 4th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-              <a href='https://github.com/corbenykt' className='relative flex flex-col items-center'>
-                <h4 className="h4 text-black">GitHub</h4>
-                <ReactSVG src={githubsvg} className='mt-2 mb-4' />
-                <p className="text-lg text-gray-500 text-justify">Version control system for tracking changes in code. I publish my repositories whenever possible. Also CI/CD: GitHub Actions. Click to visit
-                </p>
-              </a>
-            </div>
+            <SkillCard
+              title="Python + ML"
+              description="Python and that says it all. It is great not only for backend but also for Machine learning tasks. Yeap I really like working with dataset, linear regressions, CNN and so on. You can also with my works with ML in GitHub."
+              icon={pythonsvg}
+              delay="300"
+            />
 
-            {/* 5th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-              <a href='https://github.com/corbenykt' className='relative flex flex-col items-center'>
-                <h4 className="h4 text-black">Python + ML</h4>
-                <ReactSVG src={pythonsvg} className='mt-2 mb-4' />
-                <p className="text-lg text-gray-500 text-justify">Python and that says it all. It is great not only for backend but also for Machine learning tasks. Yeap I really like working with dataset, linear regressions, CNN and so on. You can also with my works with ML in GitHub</p>
-              </a>
-            </div>
+            <SkillCard
+              title="SQL|NoSQL"
+              description="Started with MS Access mdb fies, then SQL Server 2005|2008. Now using MongoDB, mockapi.io and API. Also very convenient for me is a combination of AWS server based on Ubuntu with Node.js and a prepared API."
+              icon={sqlsvg}
+              delay="300"
+            />
 
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-              <h4 className="h4 text-black">SQL|NoSQL</h4>
-              <ReactSVG src={sqlsvg} className='mb-4' />
-              <p className="text-lg text-gray-500 text-justify">Started with MS Access mdb fies, then SQL Server 2005|2008. Now using MongoDB, mockapi.io and API. Also very convenient for me is a combination of AWS server based on Ubuntu with Node.js and a prepared API.</p>
-            </div>
-
-            {/* 6th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-              <h4 className="h4 text-black">Etc.</h4>
-              <ReactSVG src={etcsvg} className='mt-2 mb-4' />
-              <p className="text-lg text-gray-500 text-justify">Ability to think creatively and find innovative solutions to create unique and effective web applications,
+            <SkillCard
+              title="Etc."
+              description="Ability to think creatively and find innovative solutions to create unique and effective web applications,
                 Willingness to continuously learn and adapt to new technologies, improving skills, and staying abreast of trends in web development,
                 Ability to analyze problems and find effective solutions. Patience and perseverance in troubleshooting,
                 Ability to organize work efficiently, follow schedules, and manage time effectively,
-                Analytical thinking, understanding client requirements, and making informed decisions
-              </p>
-            </div>
-          </div>
-          <br></br>
+                Analytical thinking, understanding client requirements, and making informed decisions."
+              icon={etcsvg}
+              delay="300"
+            />
+
+          </section>
+
           <div className="max-w-3xl mx-auto text-center pb-10 md:pb-10">
             <h2 className="h2 mb-4 text-black">Cert's</h2>
 

@@ -7,15 +7,11 @@ import {
 
 import 'aos/dist/aos.css';
 import './css/style.css';
-
 import AOS from 'aos';
-
 import Home from './pages/Home';
 
 function App() {
-
   const location = useLocation();
-
   useEffect(() => {
     AOS.init({
       once: true,
@@ -35,9 +31,6 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        {/* <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/reset-password" element={<ResetPassword />} /> */}
       </Routes>
     </>
   );

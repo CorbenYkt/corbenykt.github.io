@@ -10,7 +10,10 @@ function HeroHome() {
           bg-[url('/src/img/me.jpg')] 
           rounded-lg 
           bg-cover
-           bg-center ">
+          bg-center"
+            role="img"
+            aria-label="Background image of Dmitrii"
+          >
             <h1 className="h2 pt-10 pl-10 text-white text-left" data-aos="fade-up">
               Hi, I'm Dmitrii
             </h1>
