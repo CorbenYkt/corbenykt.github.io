@@ -1,12 +1,12 @@
 import React from 'react';
-import ProjectCard from '../components/ProjectCard';
-import Project1 from '../img/features-03-image-01.png';
-import Project2 from '../img/features-03-image-02.png';
-import Project3 from '../img/features-03-image-03.png';
-import Project4 from '../img/features-03-image-04.png';
-import Project5 from '../img/features-03-image-05.png';
-import Project6 from '../img/features-03-image-06.png';
-import Project7 from '../img/features-03-image-07.png';
+import ProjectCard from '../projectcard';
+import Project1 from '/assets/images/features-03-image-01.png';
+import Project2 from '/assets/images/features-03-image-02.png';
+import Project3 from '/assets/images/features-03-image-03.png';
+import Project4 from '/assets/images/features-03-image-04.png';
+import Project5 from '/assets/images/features-03-image-05.png';
+import Project6 from '/assets/images/features-03-image-06.png';
+import Project7 from '/assets/images/features-03-image-07.png';
 
 function Portfolio() {
   const projects = [

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 
 function HeroHome() {
 
@@ -7,7 +7,7 @@ function HeroHome() {
       <div className="max-w-6xl mx-auto px-4 sm:px-4 relative py-10">
         <div className="relative pt-10">
           <div className="max-w-3xl mx-auto text-center md:pt-20 md:pb-20 
-          bg-[url('/src/img/me.jpg')] 
+          bg-[url('/src/assets/images/me.jpg')] 
           rounded-lg 
           bg-cover
           bg-center"

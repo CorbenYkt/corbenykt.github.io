@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react';
-import htmlsvg from '../img/html5.svg';
-import jssvg from '../img/javascript.svg';
-import csssvg from '../img/css3.svg';
-import githubsvg from '../img/github.svg';
-import pythonsvg from '../img/python.svg';
-import etcsvg from '../img/etc.svg';
-import sqlsvg from '../img/sql.svg'
-import Cert1 from '../img/Cert1.png';
-import Cert2 from '../img/Cert2.png';
-import Cert3 from '../img/Cert3.png';
-import SkillCard from '../components/SkillCard';
+import React from 'react';
+import htmlsvg from '/assets/svgs/html5.svg';
+import jssvg from '/assets/svgs/javascript.svg';
+import csssvg from '/assets/svgs/css3.svg';
+import githubsvg from '/assets/svgs/github.svg';
+import pythonsvg from '/assets/svgs/python.svg';
+import etcsvg from '/assets/svgs/etc.svg';
+import sqlsvg from '/assets/svgs/sql.svg'
+import Cert1 from '/assets/images/Cert1.png';
+import Cert2 from '/assets/images/Cert2.png';
+import Cert3 from '/assets/images/Cert3.png';
+import SkillCard from '../skillcard';
 
 function Skills() {
   return (
@@ -115,7 +115,7 @@ function Skills() {
                 </div>
               </div>
             </div>
-            
+
             <div className="relative flex flex-row items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               <div className="max-w-xl md:max-w-none md:w-full mx-auto" data-aos="fade-up">
                 <a href='https://www.linkedin.com/in/dmitrii-artemev/details/certifications/' className='relative flex flex-col items-center text-sm text-gray-500'>More of them available in my LinkedIn profile</a>

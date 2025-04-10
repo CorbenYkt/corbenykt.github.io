@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import HeroHome from './HeroHome';
-import Skills from './Skills';
-import Portfolio from './Portfolio';
+import Header from '../components/header';
+import Footer from '../components/footer';
+import HeroHome from '../components/herohome';
+import Skills from '../components/skills';
+import Portfolio from '../components/portfolio';
 
 function Home() {
   return (
